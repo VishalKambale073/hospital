@@ -1,0 +1,13 @@
+.TopDoctors-heading {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.TopDoctors-heading > h1{
+    color: #0080ff;
+}
+.Doctors{
+    display: flex;
+    flex-wrap: wrap;
+}

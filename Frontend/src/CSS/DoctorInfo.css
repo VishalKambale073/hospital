@@ -1,0 +1,38 @@
+.DoctorInfo-container{
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.DoctorInfo-div{
+
+}
+.DoctorInfo > span{
+    font-weight: bold;
+}
+.DoctorImage-container{
+
+}
+.DoctorImage-div{
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+}
+.DoctorImage-div > img{
+    margin: 20px;
+    height: 90%;
+    width: 90%;
+}
+.DoctorAppointment-div{
+    
+    height: 60px;
+    width: 400px;
+    border: 2px solid black;
+}
+.DoctorAppointment-div > button{
+
+    border-radius: 10px;
+    margin: 10px 120px;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+}

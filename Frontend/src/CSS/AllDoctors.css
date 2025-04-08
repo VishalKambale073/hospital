@@ -1,0 +1,11 @@
+.AllDoctors-container{
+    display: flex;
+}
+.filter-div{
+    margin: 40px;
+}
+.doctors-div{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,44 @@
+.hero-container {
+    margin: 10px;
+    background: url("C:\Users\Asus\Desktop\Hospital\Frontend\src\assets\herobackground.webp") no-repeat center center;
+    background-size: 100% 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    border: 2px solid darkgray;
+  }
+  
+  .hero-content {
+    background: rgba(0, 0, 0, 0.6); 
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-btn {
+    background: #ff4081; /* Pink color */
+    color: white;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .hero-btn:hover {
+    background: #e91e63; /* Darker pink on hover */
+  }
+  

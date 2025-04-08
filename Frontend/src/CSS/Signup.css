@@ -1,0 +1,56 @@
+/* Center the signup form */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+/* Signup box styling */
+.signup-box {
+    background: white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Input field styling */
+.signup-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Signup button styling */
+.signup-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.signup-button:hover {
+    background-color: #0056b3;
+}
+
+/* Links styling */
+.alreadyAccount, .doctor-signup {
+    color: #007bff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.alreadyAccount:hover, .doctor-signup:hover {
+    text-decoration: underline;
+}
